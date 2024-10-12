@@ -1,4 +1,12 @@
 /* General Styles */
+:root {
+  --font-small: 0.875rem; /* Approx 14px */
+  --font-medium: 1rem; /* Approx 16px */
+  --font-large: 1.5rem; /* Approx 24px */
+  --font-xlarge: 2rem; /* Approx 32px */
+  --font-xxlarge: 2.5rem; /* Approx 40px */
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -29,18 +37,18 @@ body {
 }
 
 .name {
-  font-size: 24px;
+  font-size: var(--font-xlarge);
   margin: 10px 0;
 }
 
 .title {
-  font-size: 18px;
+  font-size: var(--font-large);
   color: #555;
   margin-bottom: 10px;
 }
 
 .location {
-  font-size: 16px;
+  font-size: var(--font-medium);
   color: #777;
 }
 
@@ -63,7 +71,7 @@ section {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: var(--font-large);
   margin-bottom: 10px;
   color: #333;
 }
@@ -73,13 +81,13 @@ h3 {
 }
 
 .entry h4 {
-  font-size: 18px;
+  font-size: var(--font-medium);
   margin-bottom: 5px;
   color: #333;
 }
 
 .entry p {
-  font-size: 14px;
+  font-size: var(--font-small);
   color: #666;
   margin-bottom: 10px;
 }
@@ -106,27 +114,27 @@ ul li {
   }
 
   .name {
-      font-size: 22px;
+      font-size: var(--font-large);
   }
 
   .title {
-      font-size: 16px;
+      font-size: var(--font-medium);
   }
 
   .location {
-      font-size: 14px;
+      font-size: 0.875rem;
   }
 
   h3 {
-      font-size: 18px;
+      font-size: var(--font-medium);
   }
 
   .entry h4 {
-      font-size: 16px;
+      font-size: var(--font-small);
   }
 
   .entry p {
-      font-size: 13px;
+      font-size: 0.75rem;
   }
 
   ul {
@@ -145,27 +153,27 @@ ul li {
   }
 
   .name {
-      font-size: 20px;
+      font-size: 1.5rem;
   }
 
   .title {
-      font-size: 14px;
+      font-size: var(--font-small);
   }
 
   .location {
-      font-size: 13px;
+      font-size: 0.875rem;
   }
 
   h3 {
-      font-size: 16px;
+      font-size: var(--font-medium);
   }
 
   .entry h4 {
-      font-size: 14px;
+      font-size: var(--font-small);
   }
 
   .entry p {
-      font-size: 12px;
+      font-size: 0.75rem;
   }
 
   ul {
