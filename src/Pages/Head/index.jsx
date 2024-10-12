@@ -20,6 +20,13 @@ const Portfolio = () => {
                 <section>
                     <h3>Experience</h3>
                     <div className="entry">
+                        <h4>Software Engineer</h4>
+                        <p>MUC -- Ramallah, PS | 2024 – Presint</p>
+                        <ul>
+                            <li>Build and develop students portal for Modern University Collage</li>
+                        </ul>
+                    </div>
+                    <div className="entry">
                         <h4>Software Developer</h4>
                         <p>Jawwal -- Ramallah, PS | 2023 – 2024</p>
                         <ul>
